@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Custom Hashmap in Java"
 include ':app'
+include ':library'
