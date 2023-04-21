@@ -22,5 +22,16 @@ public class MainActivity extends AppCompatActivity {
         customHashMap.put("2", "2323");
         customHashMap.put("pa", "245");
         customHashMap.put("Ac", "Goldi");
+
+
+        customHashMap.get("Ac");
+        customHashMap.get("pa");
+
+
+        customHashMap.remove("Ac");
+        customHashMap.remove("pa");
+
+        customHashMap.get("Ac");
+        customHashMap.get("pa");
     }
 }
