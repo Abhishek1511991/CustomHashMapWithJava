@@ -1,13 +1,12 @@
 package com.demo.custom_haspmap;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class MyCustomHashMap<K, V> {
 
     private int bucketCapacity = 16;
-    private float loadFactor = 0.75f;
+    private final float loadFactor = 0.75f;
     private Entry<K, V>[] table;
 
     public MyCustomHashMap() {
